@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Elementary Cellular Automata Generator</title>
+        <style>
+            html, body{
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+                height: 100%;
+            }
+            div{
+                top: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+                height: 20px;
+                position: fixed;
+                display: flex;  
+                justify-content: center;  
+                align-items: center;
+            }
+            pre{
+                padding: 0px;
+                margin-top: 5%;
+                width: 100%;
+                height: 100%;
+                zoom: 25%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!-- <button onclick="resetGrid()">Reset Grid</button> -->
+            <button onclick="makeNewRule()">Make New Rule</button>
+        </div>
+        <pre id="text"></pre>
+    </body>
+    <script src="./cellularAutomata.js"></script>
+</html>
